@@ -1,0 +1,65 @@
+```gitignore id="fullgitignore"
+# Dependencies
+
+node_modules/
+
+
+
+# Environment Variables
+
+.env
+
+
+
+# Build Files
+
+dist/
+build/
+
+
+
+# Logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+
+
+# Vite
+
+.vite/
+
+
+
+# Coverage
+
+coverage/
+
+
+
+# IDE Files
+
+.vscode/
+.idea/
+
+
+
+# Optional Lock Files
+
+package-lock.json
+
+
+
+# Temporary Files
+
+*.tmp
+*.temp
+```
