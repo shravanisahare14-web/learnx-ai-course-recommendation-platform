@@ -1,18 +1,14 @@
 # 🚀 LearnX — AI-Powered Course Recommendation Platform
 
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/shravanisahare/learnx-ai-course-recommendation-platform/main/screenshots/home.png" width="100%" />
-
-</p>
-
 ---
 
 # 🧠 About LearnX
 
-LearnX is a futuristic AI-powered online learning platform that delivers personalized course recommendations based on user interests and learning behavior.
+LearnX is a modern AI-powered online learning platform designed to deliver personalized course recommendations based on user interests and learning preferences.
 
-Built with a modern full-stack architecture, LearnX combines intelligent recommendations, immersive dashboards, premium UI/UX, and dynamic learning workflows inspired by platforms like Coursera and Udemy.
+Inspired by platforms like Coursera and Udemy, LearnX provides immersive learning workflows, intelligent recommendation systems, premium dashboards, and a futuristic SaaS-style user experience.
+
+This project focuses on combining modern full-stack development with AI-driven personalization to create a smarter and more engaging online education ecosystem.
 
 ---
 
@@ -20,104 +16,63 @@ Built with a modern full-stack architecture, LearnX combines intelligent recomme
 
 ## 🔐 Authentication System
 
+* Secure User Registration
+* User Login System
 * JWT Authentication
-* Secure Login & Registration
 * Protected Routes
-* Persistent Sessions
-* Logout System
+* Persistent User Sessions
+* Logout Functionality
 
 ---
 
 ## 🤖 AI-Powered Recommendations
 
-* Personalized recommendations
-* Interest-based filtering
-* Dynamic dashboard suggestions
-* Intelligent course matching
+* Personalized course recommendations
+* Interest-based recommendation engine
+* Dynamic recommendation filtering
+* AI-driven dashboard suggestions
 
 ---
 
 ## 📚 Learning Experience
 
-* Course enrollment
-* Continue learning workflow
-* Dynamic course player
-* Progress tracking UI
-* Learning dashboard
+* Course enrollment workflow
+* Continue learning system
+* Dynamic learning dashboard
+* Course player interface
+* Learning progress UI
 
 ---
 
-## 🎨 Premium SaaS Design
+## 🎨 Premium SaaS UI/UX
 
-* Modern dark AI theme
-* Glassmorphism UI
-* Fully responsive design
-* Framer Motion animations
-* Interactive course cards
-
----
-
-# 🖼️ Project Preview
+* Modern futuristic dark theme
+* Glassmorphism design system
+* Fully responsive layout
+* Interactive animations using Framer Motion
+* Premium course card layouts
 
 ---
 
-# 🏠 Home Page
+# 📸 Project Output Screenshots
 
-<p align="center">
+Detailed project outputs, UI previews, dashboard screens, learning workflow interfaces, AI recommendation sections, and course player previews are available inside the:
 
-<img src="https://raw.githubusercontent.com/shravanisahare/learnx-ai-course-recommendation-platform/main/screenshots/home.png" width="100%" />
+```bash
+/screenshots
+```
 
-</p>
+folder of this repository.
 
----
+The screenshots folder contains:
 
-# 🏠 Hero Section
-
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/shravanisahare/learnx-ai-course-recommendation-platform/main/screenshots/home%20(2).png" width="100%" />
-
-</p>
-
----
-
-# 🔐 Login Page
-
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/shravanisahare/learnx-ai-course-recommendation-platform/main/screenshots/login.png" width="70%" />
-
-</p>
-
----
-
-# 📊 AI Dashboard
-
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/shravanisahare/learnx-ai-course-recommendation-platform/main/screenshots/dashboard.png" width="100%" />
-
-</p>
-
----
-
-# 🤖 AI Recommendations
-
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/shravanisahare/learnx-ai-course-recommendation-platform/main/screenshots/ai-recommendation.png" width="100%" />
-
-</p>
-
----
-
-# 📖 Continue Learning
-
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/shravanisahare/learnx-ai-course-recommendation-platform/main/screenshots/learning.png" width="40%" />
-
-</p>
+* Home Page UI
+* Hero Section
+* Login Interface
+* AI Dashboard
+* Personalized Recommendations
+* Continue Learning Workflow
+* Course Player UI
 
 ---
 
@@ -127,9 +82,9 @@ Built with a modern full-stack architecture, LearnX combines intelligent recomme
 
 * React.js
 * Tailwind CSS
+* React Router DOM
 * Framer Motion
 * Axios
-* React Router DOM
 
 ---
 
@@ -139,16 +94,16 @@ Built with a modern full-stack architecture, LearnX combines intelligent recomme
 * Express.js
 * MongoDB
 * Mongoose
-* JWT
+* JWT Authentication
 * bcrypt.js
 
 ---
 
 # 🧠 AI Recommendation Logic
 
-LearnX uses an interest-based recommendation engine.
+LearnX uses an interest-based recommendation system.
 
-### Workflow:
+### Workflow
 
 ```text
 User Interests
@@ -160,13 +115,15 @@ Dynamic Filtering
 AI Recommendations
 ```
 
-Example:
+### Example
+
+If a user selects:
 
 * Artificial Intelligence
 * Cloud Computing
 * Cyber Security
 
-→ Dashboard recommends related courses dynamically.
+The dashboard dynamically recommends matching courses based on those interests.
 
 ---
 
@@ -193,7 +150,7 @@ learnx-ai-course-recommendation-platform/
 
 ---
 
-# ⚙️ Installation
+# ⚙️ Installation Guide
 
 ## Clone Repository
 
@@ -225,7 +182,7 @@ npm start
 
 # 🔑 Environment Variables
 
-Create `.env` inside the server folder:
+Create a `.env` file inside the `server` folder:
 
 ```env
 MONGO_URI=your_mongodb_uri
@@ -235,22 +192,22 @@ PORT=5000
 
 ---
 
-# 📈 Future Scope
+# 📈 Future Enhancements
 
-* ML-based recommendations
-* Collaborative filtering
+* Machine Learning-based recommendation engine
+* Collaborative filtering system
 * AI chatbot mentor
+* Real-time progress synchronization
 * Video streaming backend
+* Instructor dashboard
 * Certificates system
-* Instructor panel
-* Admin analytics
-* Real-time progress sync
+* Admin analytics panel
 
 ---
 
 # 🎯 Project Goal
 
-The goal of LearnX is to create an intelligent AI-powered learning ecosystem that delivers personalized upskilling experiences through modern web technologies and immersive UI/UX.
+The objective of LearnX is to create a scalable AI-powered learning ecosystem that delivers personalized upskilling experiences through intelligent recommendations and immersive modern web technologies.
 
 ---
 
@@ -259,9 +216,7 @@ The goal of LearnX is to create an intelligent AI-powered learning ecosystem tha
 # Shravani Sahare
 
 B.Tech Electronics & Communication Engineering
-Full Stack Developer
-AI & SaaS Enthusiast
-Future Tech Entrepreneur 🚀
+Full Stack Developer | AI Enthusiast | Future Entrepreneur 🚀
 
 ---
 
@@ -271,6 +226,4 @@ If you liked this project:
 
 * Star this repository
 * Share feedback
-* Connect on LinkedIn
-
----
+* Connect professionally
