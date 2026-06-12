@@ -155,7 +155,7 @@ learnx-ai-course-recommendation-platform/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/shravanisahare/learnx-ai-course-recommendation-platform.git
+git clone https://github.com/shravanisahare14-web/learnx-ai-course-recommendation-platform.git
 ```
 
 ---
